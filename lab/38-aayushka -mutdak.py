@@ -29,3 +29,10 @@ def check(n):
 check(a)
 check(b)
 check(c)
+#problem 4
+n=[1,2,3]
+def check(n=list):
+     for x in n:
+         print (x)
+         
+check (n)
