@@ -12,4 +12,13 @@ for x in l:
     print("even")
   else:
     print("odd")
-    
+#problem 3
+a=4
+b=9
+c=19
+M=[a,b,c]
+for x in M:
+  if x%3==0:
+    print("division")
+  else:
+    print("divisiable")
