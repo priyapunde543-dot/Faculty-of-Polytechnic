@@ -37,3 +37,7 @@ print(l)
 #problem 6
 d=["ram":30,"vijay":40,"radha":60]
 print(d["vijay"])
+#problem 7
+d=["ram":30,"vijay":40,"radha":60]
+d.update({"tom":2,"don":10})
+print(d)
