@@ -1,7 +1,7 @@
 x=0
 while<10:
   x=x+1
-  print(x)
+print(x)
 #problem 2
 a=2
 b=26
