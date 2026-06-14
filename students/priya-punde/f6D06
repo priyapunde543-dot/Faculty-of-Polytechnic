@@ -1,4 +1,4 @@
-#problem1
+#problem1leap year
 def leap_y(y):
     if y%4==0and y%100!=0:
         print("True")
@@ -6,3 +6,5 @@ def leap_y(y):
         print("False")
 year=int(input("Enter year:"))
 leap_y(year)
+
+
