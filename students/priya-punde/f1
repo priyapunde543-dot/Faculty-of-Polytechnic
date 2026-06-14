@@ -1,0 +1,8 @@
+#problem1
+def rectangle(l,b):
+    a=l*b
+    return(a)
+l=int(input("enter length:"))
+b=int(input("enter bredth"))
+result=rectangle(l,b)
+print(result)
