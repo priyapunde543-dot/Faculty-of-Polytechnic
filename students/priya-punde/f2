@@ -1,0 +1,9 @@
+#problem1
+num=10
+unum=int(input("guess 1 to 10 numbers"))
+if num<num:
+    print("Low")
+elif unum>num:
+    print("High")
+else:
+    print("correct")
