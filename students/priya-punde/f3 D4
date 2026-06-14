@@ -1,0 +1,15 @@
+#problem1
+def greet():
+    name=input("Enter name:")
+    age=int(input("Enter age:"))
+    print("hey",name+"next year you will be",age+1)
+    greet()
+#problem2
+def tip_calculator():
+    bill=float(input("Enter bill amount:"))
+    tip_percent=float(input("Enter tip percentage:"))
+    tip=(bill*tip_percent)/100
+    total=bill+tip
+    print("tip:",format(tip,".2f"))
+    print("total:",format(total,".2f"))
+    tip_calculator()
