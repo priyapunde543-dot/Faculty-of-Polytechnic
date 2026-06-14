@@ -1,0 +1,14 @@
+#problem1
+name = input("Enter name: ")
+age = int(input("Enter age: "))
+city = input("Enter city: ")
+language = input("Enter favorite programming language: ")
+years_of_coding = float(input("Enter years of coding experience: "))
+print(f"""
+Name            : {name}
+Age             : {age}
+City            : {city}
+Language        : {language}
+Years of Coding : {years_of_coding}
+
+""")
