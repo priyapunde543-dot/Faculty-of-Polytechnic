@@ -16,3 +16,10 @@ if(unum==10):
     print("correct guess")
 else:
     print("incorrect guess")
+#problem3
+n=6
+students=[]
+for x in range(n):
+    name=input("enter name:")
+    students.append(name)
+print(students)
