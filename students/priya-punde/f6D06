@@ -1,4 +1,4 @@
-#problem1leap year
+#problem1leapyear
 def leap_y(y):
     if y%4==0and y%100!=0:
         print("True")
@@ -6,5 +6,21 @@ def leap_y(y):
         print("False")
 year=int(input("Enter year:"))
 leap_y(year)
+#problem2 grade
+def c_g(score):
+    if score>=90:
+        return"A"
+    elif score>=80and score<90:
+        return"B"
+    elif score>=70and score<80:
+        return"C"
+    elif score>=60and score<70:
+        return"D"
+    elif score>=35:
+        return"E"
+    else:
+        return"Fale"
+score=int(input("Enter your score:"))
+c_g(Score)
 
 
