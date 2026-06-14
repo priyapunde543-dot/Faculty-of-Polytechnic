@@ -18,5 +18,8 @@ def calculate(l,b,h):
             return(area,perimeter)
 print("cuboid:",calculate(2,7,9))
 print("rectangle",calculate(1,2,6))
-
+#problem3
+info="priya_punde20"
+result=info.split("_")
+print(result)
 
