@@ -56,3 +56,17 @@ def ask_text(prompt):
         else:
             return"Can't be empty — try again."
 ask_text("a")
+#problem6
+def ask_yes_no(question):
+    while True:
+        answer = input(question)
+
+        if answer == "y":
+            return True
+        elif answer == "n":
+            return False
+        else:
+            print('Please type "y" or "n".')
+
+result = ask_yes_no("Continue? (y/n): ")
+print(result)
