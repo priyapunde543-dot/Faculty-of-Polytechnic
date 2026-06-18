@@ -126,3 +126,11 @@ subjects = [
     ("Physics", 30, 28, 35)
 ]
 print_report(subjects)
+#problem10
+def print_menu():
+    print("==== MENU ====")
+    print("1. Add Subject")
+    print("2. View Report")
+    print("3. Search Subject")
+    print("4. Exit")
+print_menu()
