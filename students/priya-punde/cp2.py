@@ -4,18 +4,23 @@ def average_of_three(m1, m2, m3):
 
 print(average_of_three(85, 90, 78))  
 print(average_of_three(30, 28, 35))  
-print(average_of_three(40, 55, 70)) 
-#problem
-def ask_text(prompt):
-    while True:
-        text = input(prompt)
-        
-        if text != "":
-            return "text"
-        else:
-            return"Can't be empty — try again."
-ask_text("a")
+print(average_of_three(40, 55, 70))
 #problem2
+def letter_grade(average):
+    if average >= 90:
+        return "A"
+    elif average >= 80:
+        return "B"
+    elif average >= 70:
+        return "C"
+    elif average >= 60:
+        return "D"
+    else:
+        return "F"
+print(letter_grade(86.6))  
+print(letter_grade(53.0))  
+print(letter_grade(93.0))  
+#problem3
 pass_mark = 35
 distinction_mark = 75
 def classify_result(avg):
@@ -27,7 +32,7 @@ def classify_result(avg):
         return "FAIL"
 
 print(classify_result(84.3))
-#problem2
+#problem4
 def ask_mark(prompt):
     while True:
         try:
@@ -41,3 +46,13 @@ def ask_mark(prompt):
         except ValueError:
             print("enter a whole number.")
 ask_mark(46)
+#problem5
+def ask_text(prompt):
+    while True:
+        text = input(prompt)
+        
+        if text != "":
+            return "text"
+        else:
+            return"Can't be empty — try again."
+ask_text("a")
